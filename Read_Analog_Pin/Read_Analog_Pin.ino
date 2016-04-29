@@ -6,7 +6,7 @@ void setup()
 
 void loop()
 {
-int potPin=A0, potVal;
+int potPin=A1, potVal;
 
   potVal = analogRead( potPin );
   Serial.println( potVal );
